@@ -1,0 +1,24 @@
+{
+  "name": "myapp",
+  "description": "My App",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "cf-nodejs-logging-support": "^6.1.2",
+    "express": "^4.17.1",
+    "ftp": "^0.3.10",
+    "link": "^0.1.5",
+    "log4js": "^6.1.2",
+    "node-xlsx": "^0.15.0",
+    "readdirp": "^3.3.0",
+    "ssh2": "^0.8.8",
+    "ssh2-sftp-client": "^5.1.0",
+    "unlink": "0.0.2"
+  },
+  "engines": {
+    "node": "10.x.x"
+  },
+  "scripts": {
+    "start": "node start.js"
+  }
+}

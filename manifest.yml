@@ -1,0 +1,8 @@
+---
+applications:
+- name: myapp
+  host: 11237405939elias
+  path: myapp
+  memory: 3968M
+  services:
+      - my-logs
