@@ -12,10 +12,6 @@
 
 ## Diagrama de funcionamento
 
-
-
-
-
 ```mermaid
 graph LR
 A[Conexão SFTP Download]  -->|Baixar arquivos| B(Ler arquivos na pasta econverter)
