@@ -12,8 +12,14 @@
 
 ## Diagrama de funcionamento
 
+
+
+
+
 ```mermaid
 graph LR
-A[Conexão SFTP Download]  -->|Baixar arquivos| B(Ler arquivos na pasta econverter)
+A[Conexao SFTP Download]  --> B[Dowload Arquivos]
 
-B --> C[Enviar para SFTP Upload ]
+B --> C[LConverter arquivos para CSV]
+C --> D[Enviar arquivos para STFP Upload]
+```
