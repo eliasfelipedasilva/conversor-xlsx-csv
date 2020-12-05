@@ -1,6 +1,6 @@
 # conversor-xls-csv
 
- Aplicativo para converter arquivos **XLS** e **XLSX** de um **sftp Dowload** e transferir a um **sftp Upload** em **CSV**
+ Microserviço automatizado  para converter arquivos **XLS** e **XLSX** de um **sftp Dowload** e transferir a um **sftp Upload** em **CSV**
 
 
 ### Módulos usados 
